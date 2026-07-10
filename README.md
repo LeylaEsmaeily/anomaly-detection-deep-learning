@@ -57,8 +57,9 @@ The implemented models were evaluated using:
 
 ## Reference
 
-The implementation was developed based on the concepts and methods discussed in the following research work:
+The implementation was inspired by the concepts and methods discussed in the following research work:
 
+**Smiliotopoulos, C., Kambourakis, G., and Barbatsalou, K.**  
 **"Assessing the Detection of Lateral Movement Through Unsupervised Learning Techniques"**
 
 This repository represents an academic implementation and experimental study for learning purposes.
