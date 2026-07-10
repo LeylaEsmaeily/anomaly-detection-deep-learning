@@ -1,43 +1,74 @@
-# Educational Project: Unsupervised Learning for Anomaly Detection
+# Deep Learning Course Project: Anomaly Detection
 
-This repository contains a **student practice implementation** developed for the Deep Learning course.  
-The purpose of this work is purely **educational and training-based**, focusing on learning and implementing unsupervised machine learning techniques.
+This repository contains a student project developed for the Deep Learning course.
 
-This project is **not an industrial system, production model, or published research**, and it should only be considered as an academic exercise.
+The purpose of this project is to practice and implement machine learning and deep learning techniques for anomaly detection.
+
+This project is developed only for academic and educational purposes and is not intended to be used as an industrial security system or a production-ready solution.
 
 ## Objective
-Practice and understand anomaly detection methods using machine learning and deep learning techniques.
 
-## Models Implemented
-- Autoencoder (Deep Learning-based anomaly detection)
-- Isolation Forest (Classical unsupervised method)
+The main objective of this project is to implement and evaluate anomaly detection methods for identifying abnormal network behaviors using machine learning and deep learning techniques.
+
+## Implemented Methods
+
+### Stacked Autoencoder
+
+- Deep learning-based feature extraction
+- Learning latent representations from normal data
+- Reconstruction error analysis for anomaly detection
+
+### Isolation Forest
+
+- Classical unsupervised anomaly detection method
+- Identifying abnormal patterns using extracted features
 
 ## Dataset
-LMD-2023 dataset (Sysmon-based logs) used only for educational experimentation.
+
+The experiments were performed using the **LMD-2023 dataset**, which contains Sysmon-based event logs for network security analysis.
 
 ## Preprocessing Steps
-- Data cleaning
-- One-Hot Encoding
-- Min-Max Scaling
-- Principal Component Analysis (PCA)
+
+The following preprocessing operations were applied:
+
+- Data cleaning and feature selection
+- Label transformation
+- One-Hot Encoding for categorical features
+- Min-Max Scaling for numerical features
 
 ## Evaluation Metrics
+
+The implemented models were evaluated using:
+
 - Accuracy
 - Precision
 - Recall
 - F1-score
 - ROC-AUC
 
-## Note
-This project is part of an academic assignment and is intended only for learning purposes.  
-It does not represent a deployed security system or real-world detection solution.
+## Tools and Libraries
 
-## Tools & Libraries
 - Python
-- TensorFlow
+- TensorFlow / Keras
 - Scikit-learn
 - Pandas
 - NumPy
+- Matplotlib
+
+## Reference
+
+The implementation was developed based on the concepts and methods discussed in the following research work:
+
+**"Assessing the Detection of Lateral Movement Through Unsupervised Learning Techniques"**
+
+This repository represents an academic implementation and experimental study for learning purposes.
+
+## Note
+
+This repository is part of an academic assignment and is intended only for learning and experimental purposes.
+
+The implemented models are not considered a deployed intrusion detection system and should not be used directly in real-world security environments.
 
 ## Author
-Student Project – Deep Learning Course (Educational Practice Only)
+
+Student Project – Deep Learning Course
